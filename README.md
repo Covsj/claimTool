@@ -1,11 +1,12 @@
 # claimTool使用帮助
 
-**推荐使用RPC **
+推荐使用nodereal RPC
 
-**注册：[https://nodereal.io/invite/c19201ec-373e-419a-aa9d-d746e8e06b3b]**
+注册：https://nodereal.io/invite/c19201ec-373e-419a-aa9d-d746e8e06b3b
 
-**ARB：arbitrum-nitro-rpc**
-** 如果需要claim之后在归集到一个地址 可以提pr或者联系我**
+ARB：arbitrum-nitro-rpc
+
+如果需要claim之后在归集到一个地址 可以提pr或者联系我
 
 ***
 
