@@ -1,14 +1,14 @@
 # 私钥数组 使用,分割 私钥开头请删除0x test333 test22222 只是测试 请根据实际情况删除
-PrivateKeys = ["test333", "test22222"]
+PrivateKeys = ["test333"]
 
 # 空投归集地址 如果为空则不归集
 CollectAddress = ""
 
 # Arb网络rpc
-ArbiturmRpc = "https://rpc.ankr.com/arbitrum"
+ArbiturmRpc = ""
 
 # 以太坊网络rpc 用来获取以太坊时间
-EthereumRpc = "https://rpc.flashbots.net"
+EthereumRpc = ""
 
 # DistributorAddress claim合约地址
 DistributorAddress = "0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9"
@@ -17,7 +17,7 @@ DistributorAddress = "0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9"
 TokenAddress = "0x912ce59144191c1204e64559fe8253a0e49e6548"
 
 # StartBlockNumber 开始claim以太坊时间 16890400
-StartBlockNumber = 16890400
+StartBlockNumber = 1
 
 # gas设置
 GasLimit = 1000000
