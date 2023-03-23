@@ -1,5 +1,5 @@
 # 私钥数组 使用,分割 私钥开头请删除0x test333 test22222 只是测试 请根据实际情况删除
-PrivateKeys = ["test333"]
+PrivateKeys = ["test22222"]
 
 # 空投归集地址 如果为空则不归集
 CollectAddress = ""
