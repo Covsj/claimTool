@@ -14,21 +14,21 @@ ARB：arbitrum-nitro-rpc
 
 ### 1 执行go mod下载依赖
 
-```bash
+```sh
 # 需要在项目目录内 不懂的可以自己谷歌go module依赖
 go mod tidy
 ```
 
 ### 2.进入Arbitrum模块目录
 
-```bash
+```sh
 # $pwd 为你下载或者克隆代码的目录
 cd $pwd/claimTool/arbitrum
 ```
 
 ### 3.修改配置文件
 
-```bash
+```sh
 # config.toml 是程序所需要依赖的配置文件 根据自己情况修改
 
 PrivateKeys 是你想要执行程序的地址私钥数组 根据配置来
@@ -37,8 +37,14 @@ PrivateKeys 是你想要执行程序的地址私钥数组 根据配置来
 
 ### 4.运行程序
 
-```bash
+- 4.1 claim任务
+```
 # 现在应该是在$pwd/claimTool/arbitrum目录下
 运行命令：  go run main.go --config ./config.toml
 ```
 
+- 4.2 归集任务
+```
+# 现在应该是在$pwd/claimTool/arbitrum目录下
+运行命令：  go run main.go --config ./config.toml --task collect
+```

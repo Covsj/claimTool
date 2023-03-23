@@ -8,6 +8,7 @@ type ClaimArbConfig struct {
 	EthereumRpc        string
 	DistributorAddress string
 	TokenAddress       string
+	CollectAddress     string
 	StartBlockNumber   int
 	GasLimit           int
 	GasPrice           int
